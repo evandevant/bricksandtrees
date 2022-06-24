@@ -1,91 +1,80 @@
 /* 
 
-Sheet for Styling BruinPlan
-
 CSS Document is Organized as Follows:
 
-1. layout 
-2. containers
+1. Header
+2. Paragraph
 3. 
 
 */
 
 
-* {
 
-    margin: 0;
-    height: 50%;
+/* Header */
 
-}
-
-.img-background{
-
-    background-image: url(https://www.freepik.com/free-photo/milford-sound-new-zealand-travel-destination-concept_3224654.htm#query=free%20pic&position=3&from_view=keyword);
-    height: 70%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-
-}
-
-.inner-container{
-        text-align: center;
-        position: absolute;
-        width: 100%;
-
-
-}
-
-.btn{
-    display: inline-block;
-    color: goldenrod;
-}
-
-
-#para1font {
-
-    font-size: 20px;
-
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
-}
-
-
-
-#para2font {
-
-    font-size: 20px;
-
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
-
-.Container1 {
-    
-    color:navy;
-
-    background-color: lightgrey;
-
+h1 {
+    background-color: aqua;
+    padding: 20px;
     text-align: center;
-
-    border-style: outset;
-
+    border-color: maroon;
     border-width: 10px;
+    border-style: dashed;
+}
 
-    border-color: black;
 
-    width: 7em;
 
-    align-items: center;
 
-    position: relative; top: 400px;
 
-    padding-bottom: 2em;
 
-    margin: auto;
+
+/* Paragraph */
+
+p {
+    font-weight: 700;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.center {
     
+    width: 50%;
+    height: 10%;
+        
+    
+}
+
+
+#images{
+    display: flex ;
+    background-position: 50% 10px;
+}
+
+body {
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color: antiquewhite;
+}
 
 
 
+
+.fa {
+    padding: 20px;
+    font-size: 30 px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity:.07;
 }
