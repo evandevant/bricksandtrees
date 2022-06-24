@@ -1,8 +1,38 @@
 # Bruin Plan Project
 
+> Academic tool engineered to improve college experience @ucla through culture building and calcuated planning. 
+
+
+### Languages
+- HMTL
+- CSS
 
 ---
-Project Progress Outline
+
+
+
+
+
+### Table of Contents
+
+-[Description](#description)
+
+-[How To Use](#how-to-use)
+
+
+
+
+---
+
+## Description
+text text text text 
+
+
+## How To Use
+
+
+
+Project Progress Outline 
 
 Week 1 
 
@@ -12,7 +42,8 @@ market research
 
 Week 2 
 
-work on page layout, delineate the sections for each part of the page
+- page layout
+- delineate the sections for each part of the page
 
 
 Week 3 
@@ -35,4 +66,10 @@ Week 6
 ---
 
 # License & Copyright
+In progress. 
+
+[Back To The Top](#bruin-plan-project)
+
+
+## Author Information
 
