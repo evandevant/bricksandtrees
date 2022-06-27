@@ -38,24 +38,6 @@ p {
 
 
 
-
-
-
-
-.center {
-    
-    width: 50%;
-    height: 10%;
-        
-    
-}
-
-
-#images{
-    display: flex ;
-    background-position: 50% 10px;
-}
-
 body {
     font-size: larger;
     font-family: 'Times New Roman', Times, serif;
