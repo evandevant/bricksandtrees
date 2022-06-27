@@ -10,15 +10,22 @@ CSS Document is Organized as Follows:
 
 
 
+.grid {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr 1fr;
+    
+}
+
+
 /* Header */
 
 h1 {
-    background-color: aqua;
+    background-color: yellow;
     padding: 20px;
     text-align: center;
     border-color: maroon;
     border-width: 10px;
-    border-style: dashed;
+    border-style: solid;
 }
 
 
@@ -42,7 +49,7 @@ body {
     font-size: larger;
     font-family: 'Times New Roman', Times, serif;
     color: black;
-    background-color: antiquewhite;
+    
 }
 
 
