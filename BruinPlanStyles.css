@@ -10,11 +10,84 @@ CSS Document is Organized as Follows:
 
 
 
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: antiquewhite;
+}
+
 .grid {
     display: grid;
-    grid-template-columns: 200px 1fr 1fr 1fr;
-    
+    height: 50%;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-around;
+    justify-items: stretch;
+
 }
+
+
+.others {
+    grid-column-start: 3;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: aqua;
+}
+
+.statistics {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    align-self: start;
+    height: 35%;
+}
+
+.photos {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row: 1;
+    height: 35%;
+}
+
+
+
+
+.wde {
+    grid-row: 1;
+    grid-column: 3 /4;
+    height: 20%;
+}
+
+
+
+
+
+.sidebar {
+   grid-column-start: 1;
+   grid-column-end: 1;
+   grid-row-start: 2;
+   grid-row-end: 2;
+}
+
+
+.content {
+    grid-area: content;
+}
+
+
+
+
+
 
 
 /* Header */
