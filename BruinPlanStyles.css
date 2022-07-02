@@ -18,8 +18,8 @@ CSS Document is Organized as Follows:
     padding: 0;
     box-sizing: border-box;
     font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(145, 178, 199)
 }
 
 .grid {
@@ -27,7 +27,7 @@ CSS Document is Organized as Follows:
     height: 50%;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-row-gap: 50px;
+    grid-row-gap: 0px;
     grid-column-gap: 10px;
     justify-content: center;
     align-content: center;
@@ -41,25 +41,29 @@ CSS Document is Organized as Follows:
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 1;
-    background-color: aqua;
 }
 
 .statistics {
     grid-column-start: 1;
     grid-column-end: 2;
-    align-self: start;
-    height: 35%;
 }
 
 .photos {
-    grid-column-start: 3;
-    grid-column-end: 4;
+    display: subgrid;
+    grid-column-start: 2;
+    grid-column-end: 3;
     grid-row: 1;
     height: 35%;
 }
 
 
 
+.globe {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
 
 .wde {
     grid-row: 1;
@@ -70,13 +74,14 @@ CSS Document is Organized as Follows:
 
 
 
-
-
-.sidebar {
+.sidebar, tr {
    grid-column-start: 1;
    grid-column-end: 1;
    grid-row-start: 2;
    grid-row-end: 3;
+   width: 40%;
+   height: 10px;
+   line-height: 50px;
 }
 
 
@@ -84,6 +89,14 @@ CSS Document is Organized as Follows:
     grid-area: content;
 }
 
+
+.footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    border: black;
+}
 
 
 
