@@ -24,7 +24,7 @@ CSS Document is Organized as Follows:
 
 .grid {
     display: grid;
-    height: 50%;
+    height: 15%;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-row-gap: 0px;
@@ -46,6 +46,9 @@ CSS Document is Organized as Follows:
 .statistics {
     grid-column-start: 1;
     grid-column-end: 2;
+    border: black;
+    border-width: 10px;
+    border-style: ;
 }
 
 .photos {
