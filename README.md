@@ -3,9 +3,10 @@
 > Academic tool engineered to improve college experience @ucla through culture building and calcuated planning. 
 
 
-### Languages
+### Languages Used in Project
 - HMTL
 - CSS
+- Javascript
 
 ---
 
