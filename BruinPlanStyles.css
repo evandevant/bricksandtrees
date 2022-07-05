@@ -185,7 +185,7 @@ img {
 }
 
 gallery-item:hover .image .img{
-    traansform:scale(1.5);
+    transform:scale(1.5);
 }
 
 
