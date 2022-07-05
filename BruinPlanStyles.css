@@ -2,9 +2,9 @@
 
 CSS Document is Organized as Follows:
 
-1. Header
-2. Paragraph
-3. 
+1. Universal 
+2. Head
+3. Body
 
 */
 
@@ -13,14 +13,66 @@ CSS Document is Organized as Follows:
 
 
 
+
+
+/* Font */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Cormorant:wght@300&family=Gulzar&display=swap');
+
+
+
+
+
+
+
+/* Universal Selector */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(145, 178, 199)
+    background-color: rgb(110, 179, 222)
 }
+
+
+/* Head */
+
+
+
+/* Body */
+
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+    margin: 20px;
+    padding: 0;
+    text-align: center;
+    font-weight: 500;
+    color: black;
+    line-height: 1.6;
+    
+}
+
+
+
+ul {
+    list-style-type: square;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+
+img {
+    width: 100%;
+}
+
+
 
 .grid {
     display: grid;
@@ -143,14 +195,6 @@ gallery-item:hover .image .img{
 
 
 
-
-
-
-
-
-
-
-
 /* Header */
 
 h1 {
@@ -160,6 +204,7 @@ h1 {
     border-color: maroon;
     border-width: 10px;
     border-style: solid;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 
@@ -175,14 +220,4 @@ p {
 
 
 
-
-body {
-    margin: 20px;
-    padding: 0;
-    text-align: center;
-    font-size: larger;
-    font-family: 'Times New Roman', Times, serif;
-    color: black;
-    
-}
 
