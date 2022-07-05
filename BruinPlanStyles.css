@@ -2,9 +2,9 @@
 
 CSS Document is Organized as Follows:
 
-1. Header
-2. Paragraph
-3. 
+1. Universal 
+2. Head
+3. Body
 
 */
 
@@ -13,29 +13,77 @@ CSS Document is Organized as Follows:
 
 
 
+
+
+/* Font */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Cormorant:wght@300&family=Gulzar&display=swap');
+
+
+
+
+
+
+
+/* Universal Selector */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(145, 178, 199)
+    background-color: rgb(110, 179, 222)
 }
+
+
+/* Head */
+
+
+
+/* Body */
+
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+    margin: 20px;
+    padding: 0;
+    text-align: center;
+    font-weight: 500;
+    color: black;
+    line-height: 1.6;
+    
+}
+
+
+
+ul {
+    list-style-type: square;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+
+img {
+    width: 100%;
+}
+
+
 
 .grid {
     display: grid;
-    height: 15%;
-    grid-template-columns: 20% 2fr 1fr;
-    grid-template-rows: 20% 1fr 1fr;
-    grid-row-gap: 0px;
-    grid-column-gap: 10px;
-    justify-content: center;
-    align-content: center;
-    justify-content: space-around;
-    justify-items: stretch;
+    grid-template-columns: repeat(6,1fr);
+    grid-auto-rows: 100px, 300px;
+    grid-gap: 10px;
+
 }
 
 
+/*
 .others {
     grid-column-start: 3;
     grid-column-end: 2;
@@ -47,7 +95,7 @@ CSS Document is Organized as Follows:
     grid-column-start: 1;
     grid-column-end: 2;
     border: black;
-    border-width: 10px;
+    border-width: 40px;
     background-color: brown;
 }
 
@@ -101,6 +149,47 @@ CSS Document is Organized as Follows:
     border: black;
 }
 
+*/
+
+
+
+
+
+
+.gallery-item {
+    width: 100%;
+    height: 100%;
+    position:relative;
+}
+
+
+.gallery-item .image{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gallery-item .img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery-item .image .img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 10% 10%;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+gallery-item:hover .image .img{
+    transform:scale(1.5);
+}
+
+
+
 
 
 
@@ -115,9 +204,8 @@ h1 {
     border-color: maroon;
     border-width: 10px;
     border-style: solid;
+    font-family: 'Cormorant Garamond', serif;
 }
-
-
 
 
 
@@ -133,26 +221,3 @@ p {
 
 
 
-
-body {
-    font-size: larger;
-    font-family: 'Times New Roman', Times, serif;
-    color: black;
-    
-}
-
-
-
-
-.fa {
-    padding: 20px;
-    font-size: 30 px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-}
-
-.fa:hover {
-    opacity:.07;
-}
