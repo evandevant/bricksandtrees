@@ -1,6 +1,6 @@
 # Bruin Plan Project
 
-> Academic tool engineered to improve college experience @ucla through culture building and calcuated planning. 
+> Academic, social, and professional preparation tool engineered to heighten the college experience @ucla through culture building and calculated planning.
 
 
 ### Languages Used in Project
