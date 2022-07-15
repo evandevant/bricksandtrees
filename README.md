@@ -1,6 +1,6 @@
 # Bruin Plan Project
 
-> Academic tool engineered to improve college experience @ucla through culture building and calcuated planning. 
+> Academic, social, and professional preparation tool engineered to heighten the college experience @ucla through culture building and calculated planning.
 
 
 ### Languages Used in Project
@@ -26,7 +26,8 @@
 ---
 
 ## Description
-text text text text 
+
+This all-encompassing platform is aimed at providing students with the most important collegiate and personal data they need to succeed at UCLA and beyond. The site layout is available in the UXFiles folder and are broken down into two different visualizations: wirefram and page layout. Each will illuminate the interactability of the website and services it provides to students to reach their highest potential. 
 
 
 ## How To Use
