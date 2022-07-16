@@ -10,88 +10,29 @@ CSS Document is Organized as Follows:
 
 
 
-
-
-
-
-
-/* Font */
-
-
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Cormorant:wght@300&family=Gulzar&display=swap');
-
-
-
-
-
-
-
-/* Universal Selector */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 20px;
-    background-color: rgb(110, 179, 222)
-}
-
-
-/* Head */
-
-
-
 /* Body */
 
-/*
+
 body {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
     font-weight: 500;
-    color: black;
     line-height: 1.6;
-
-    
-}
-*/
-
-/*
-
-ul {
-    list-style-type: square;
-}
-
-a {
-    text-decoration: none;
-    color: #333;
-}
-
-
-
-img {
-    width: 100%;
-}
-
-
-*/
-
-.grid {
     display: grid;
-    grid-template-columns: 30% 20& 20% 30%;
+    grid-template-columns: 30% 20% 20% 30%;
     grid-template-rows:  15% 30% 45% 10%;
     grid-template-areas: 
-    "sidebar header header header"
-    "sidebar section1 section2 section3"
-    "sidebar main main main"
-    "sidebar footer footer footer"
-
+        "sidebar     header      header        header"
+        "sidebar     section1    section2      section3"
+        "sidebar     main        main          main"
+        "sidebar     footer      footer        footer";
 }
 
 aside {
     grid-area: sidebar;
-    background-color: black;
+    background-color: orange;
 }
 
 header {
@@ -99,141 +40,29 @@ header {
     background-color: brown;
 }
 
-
-/*
-.others {
-    grid-column-start: 3;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 1;
-}
-
-.statistics {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    border: black;
-    border-width: 40px;
-    background-color: brown;
-}
-
-.photos {
-    display: subgrid;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row: 1;
-    height: 35%;
+section:nth-of-type(1){
+    grid-area: section1;
+    background-color: black;
 }
 
 
-
-.globe {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
-
-.wde {
-    grid-row: 1;
-    grid-column-start: 4;
-    grid-column-end: 3;
-    height: 20%;
+section:nth-of-type(2){
+    grid-area: section2;
+    background-color: blue;
 }
 
 
-
-.sidebar, tr {
-   grid-column-start: 1;
-   grid-column-end: 1;
-   grid-row-start: 2;
-   grid-row-end: 3;
-   width: 40%;
-   height: 10px;
-   line-height: 50px;
+section:nth-of-type(3){
+    grid-area: section3;
+    background-color: orange;
 }
 
-
-.content {
-    grid-area: content;
+main {
+    grid-area: main;
+    background-color: blueviolet;
 }
 
-
-.footer {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 3;
-    grid-row-end: 3;
-    border: black;
+footer {
+    grid-area: footer;
+    background-color: green;
 }
-
-*/
-
-
-
-
-/*
-.gallery-item {
-    width: 100%;
-    height: 100%;
-    position:relative;
-}
-
-
-.gallery-item .image{
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.gallery-item .img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.gallery-item .image .img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: 10% 10%;
-    cursor: pointer;
-    transition: .5s ease-in-out;
-}
-
-gallery-item:hover .image .img{
-    transform:scale(1.5);
-}
-
-
-
-
-
-/*
-
-
-/* Header 
-
-h1 {
-    background-color: yellow;
-    padding: 10px;
-    text-align: center;
-    border-color: maroon;
-    border-width: 10px;
-    border-style: solid;
-    font-family: 'Cormorant Garamond', serif;
-}
-
-*/
-
-
-
-/* Paragraph 
-
-p {
-    font-weight: 700;
-    text-align: center;
-}
-
-*/
-
-
