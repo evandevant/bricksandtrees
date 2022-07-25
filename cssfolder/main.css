@@ -19,8 +19,8 @@ body {
     width: 100%;
     font-weight: 500;
     display: grid;
-    grid-template-columns: 10% 80% 10%;
-    grid-template-rows:    25% 50% 25%;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows:    20% 55% 25%;
     grid-template-areas: 
         "section1    header    section2"
         "sidebar     main      main"
