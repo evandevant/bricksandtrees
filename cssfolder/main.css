@@ -23,14 +23,12 @@ body {
     width: 100%;
     font-weight: 500;
     display: grid;
-    grid-template-columns: 20% 30% 30% 20%;
-    grid-template-rows:    15% 30% 45% 10%;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows:    25% 50% 25%;
     grid-template-areas: 
-        "section2    header      header        section3"
-        "sidebar      main        main          main"
-        "sidebar     main        main          main"
-        "sidebar    main        main          main"
-        "sidebar     footer      footer        footer";
+        "section1    header    section2"
+        "sidebar   main  main"
+        "footer    footer  footer";
 }
 
 aside {
@@ -57,22 +55,21 @@ header {
     border: white;
 }
 
+
 section:nth-of-type(1){
     grid-area: section1;
-    background-color: black;
+    background-color: blue;
+    border-color: black;
+    border-width: 20%;
+    border: solid;
 }
 
 
 section:nth-of-type(2){
     grid-area: section2;
-    background-color: blue;
-}
-
-
-section:nth-of-type(3){
-    grid-area: section3;
     background-color: orange;
 }
+
 
 main {
     grid-area: main;
