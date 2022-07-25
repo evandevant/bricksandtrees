@@ -3,8 +3,8 @@
 > Academic, social, and professional preparation tool engineered to heighten the college experience @ucla through culture building and calculated planning.
 
 | Academic  |  Descriptions  |  
-|   :--:    |      :--:      |    
-|           |                |           
+|  ------   |    -------     |    
+|MajorQuery |  Tracks majors and student reviews, likely job pathways, average salary, and more. |         
 |           |                |               
 |           |                |               
 |           |                |              
@@ -12,7 +12,7 @@
 
 
 |  Social   |  Description   |
-|   :--:    |    :----:      |
+|  -----    |    ------      |
 |           |                |
 |           |                |
 |           |                |
@@ -20,9 +20,12 @@
 
 
 Professional |  Description  |
-|   :--:     |    :----:     |
+|  -----     |   -------     |
 |            |               |
 |            |               |
+
+
+
 
 
 
