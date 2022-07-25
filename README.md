@@ -2,12 +2,36 @@
 
 > Academic, social, and professional preparation tool engineered to heighten the college experience @ucla through culture building and calculated planning.
 
+| Academic  |  Descriptions  |  
+|   :--:    |      :--:      |    
+|           |                |           
+|           |                |               
+|           |                |               
+|           |                |              
+|           |                |
+
+
+|  Social   |  Description   |
+|   :--:    |    :----:      |
+|           |                |
+|           |                |
+|           |                |
+
+
+
+Professional |  Description  |
+|   :--:     |    :----:     |
+|            |               |
+|            |               |
+
+
+
 
 ### Languages Used in Project
 - HMTL
 - CSS
 - Javascript
-
+/assets/cb-4503/images/help/writing/table-basic-rendered.png
 ---
 
 
