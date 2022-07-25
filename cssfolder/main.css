@@ -75,7 +75,8 @@ aside {
 
 header {
     grid-area: header;
-    background-color: #BC4A3C;
+    background: url(../img/uclaphoto2.jpg) ;
+    background-size: 150px;
     border-style: solid;
     border: black;
     text-align: center;
