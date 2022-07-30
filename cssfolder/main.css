@@ -20,7 +20,7 @@ body {
     grid-template-areas: 
         "section1    header    section2"
         "sidebar     main      main"
-        "footer      footer    footer";
+        "section3      footer    section4";
 }
 
 
@@ -32,6 +32,7 @@ aside {
     background-color: #8AAAE5;
     border-style: solid;
     border-color: #BC4A3C;
+    column-width: ;
 }
 
 .sidebar {
@@ -42,6 +43,7 @@ aside {
 #Tools {
     border-style: solid;
     border-color: black;
+    width: 35%;
 }
 
 #GPA {
@@ -96,6 +98,21 @@ section:nth-of-type(2){
     border-style: solid;
     border-color: black;
 }
+
+section:nth-of-type(3){
+    grid-area: section3;
+    background-color: yellow;
+    border-style: solid;
+    border-color: black;
+}
+
+section:nth-of-type(4){
+    grid-area: section4;
+    background-color: green;
+    border-style: solid;
+    border-color: black;
+}
+
 
 
 /* main styles */
