@@ -14,3 +14,15 @@
 .table{
     row-gap: 20px;
 }
+
+th {
+    width: 100px;
+    height: 50px;
+    margin: 50px;
+}
+
+td {
+    width: 100px;
+    margin: 50px;
+    border: solid black;
+}
