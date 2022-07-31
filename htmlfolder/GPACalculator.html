@@ -283,7 +283,7 @@
 
             <div class="last">
 
-                <button class="button"> calculate </button>
+            <button class="button"onclick="calculation()"> calculate </button>
                 
                 <p class="result"> </p>
         
@@ -301,76 +301,80 @@
         const result=document.querySelector('.result');
     
         function calculation(){
+         
+        // p represents grade points available.
+        // u represents number of units completed.
 
             var p = 0.0
-            var u = 0
+            var u = 0.0
+
 
             for(var i=0; i < grades.length; i++) {
 
             //Calculations for A+,A
 
             if(grades[i].value=="A+" || grades[i].value=="A" && units[i].value == "8"){
-                p = p + 4.0;
-                u = u + 8;
+                p += 32.0;
+                u += 8;
                 } 
         
                  else if(grades[i].value=="A+" || grades[i].value=="A" && units[i].value == "7"){
-                    p+= 4.0;
-                    u+= 7;
+                    p += 28.0;
+                    u += 7;
                 }
                  else if(grades[i].value=="A+"|| grades[i].value=="A" && units[i].value == "6"){
-                    p+= 4.0;
-                    u+= 6;
+                    p += 24.0;
+                    u += 6;
                 }
                  else if(grades[i].value=="A+"|| grades[i].value=="A" && units[i].value == "5"){
-                    p+= 4.0;
-                    u+= 5;
+                    p += 4.0;
+                    u += 5;
                 }
                  else if(grades[i].value=="A+"|| grades[i].value=="A" && units[i].value == "4"){
-                    p+= 4.0;
-                    u+= 4;
+                    p += 16.0;
+                    u += 4;
                 }
                  else if(grades[i].value=="A+"|| grades[i].value=="A" && units[i].value == "3"){
-                    p+= 4.0;
-                    u+= 3;
+                    p += 12.0;
+                    u += 3;
                 }
                  else if(grades[i].value=="A+"|| grades[i].value=="A" && units[i].value == "2"){
-                    p+= 4.0;
-                    u+= 2;
+                    p += 8.0;
+                    u += 2;
                 }
                  else if(grades[i].value=="A+" || grades[i].value=="A" && units[i].value == "1"){
-                    p+= 4.0;
-                    u+= 1;
+                    p += 4.0;
+                    u += 1;
                 }
 
                  // A-
 
                  else if(grades[i].value=="A-" && units[i].value == "8"){
-                    p+= 3.7;
-                    u+= 8;
+                    p += 29.6;
+                    u += 8;
                 }
                  else if(grades[i].value=="A-" && units[i].value == "7"){
-                    p+= 3.7;
-                    u+= 7;
+                    p += 25.9;
+                    u += 7;
                 }
                  else if(grades[i].value=="A-"&& units[i].value == "6"){
-                    p+= 3.7;
+                    p+= 22.2;
                     u+= 6;
                 }
                  else if(grades[i].value=="A-"&& units[i].value == "5"){
-                    p+= 3.7;
+                    p+= 18.5;
                     u+= 5;
                 }
                  else if(grades[i].value=="A-"&& units[i].value == "4"){
-                    p+= 3.7;
+                    p+= 14.8;
                     u+= 4;
                 }
                  else if(grades[i].value=="A-"&& units[i].value == "3"){
-                    p+= 3.7;
+                    p+= 11.1;
                     u+= 3;
                 }
                  else if(grades[i].value=="A-"&& units[i].value == "2"){
-                    p+= 3.7;
+                    p+= 7.4;
                     u+= 2;
                 }
                  else if(grades[i].value=="A-"&& units[i].value == "1"){
@@ -382,31 +386,31 @@
                   // B+
 
                  else if(grades[i].value=="B+" && units[i].value == "8"){
-                    p+= 3.3;
+                    p+= 26.4;
                     u+= 8;
                 }
                  else if(grades[i].value=="B+" && units[i].value == "7"){
-                    p+= 3.3;
+                    p+= 23.1;
                     u+= 7;
                 }
                  else if(grades[i].value=="B+"&& units[i].value == "6"){
-                    p+= 3.3;
+                    p+= 19.8;
                     u+= 6;
                 }
                  else if(grades[i].value=="B+" && units[i].value == "5"){
-                    p+= 3.3;
+                    p+= 16.5;
                     u+= 5;
                 }
                  else if(grades[i].value=="B+" && units[i].value == "4"){
-                    p+= 3.3;
+                    p+= 13.2;
                     u+= 4;
                 }
                  else if(grades[i].value=="B+" && units[i].value == "3"){
-                    p+= 3.3;
+                    p+= 9.9;
                     u+= 3;
                 }
                  else if(grades[i].value=="B+" && units[i].value == "2"){
-                    p+= 3.3;
+                    p+= 6.6;
                     u+= 2;
                 }
                  else if(grades[i].value=="B+"&& units[i].value == "1"){
@@ -417,37 +421,37 @@
                   // B
 
                  else if(grades[i].value=="B" && units[i].value == "8"){
-                    p+= 3.0;
+                    p+= 24.0;
                     u+= 8;
                 }
 
                  else if(grades[i].value=="B" && units[i].value == "7"){
-                    p+= 3.0;
+                    p+= 21.0;
                     u+= 7;
                 }
 
                  else if(grades[i].value=="B" && units[i].value == "6"){
-                    p+= 3.0;
+                    p+= 18.0;
                     u+= 6;
                 }
 
                  else if(grades[i].value=="B" && units[i].value == "5"){
-                    p+= 3.0;
+                    p+= 15.0;
                     u+= 5;
                 }
 
                  else if(grades[i].value=="B" && units[i].value == "4"){
-                    p+= 3.0;
+                    p+= 12.0;
                     u+= 4;
                 }
 
                  else if(grades[i].value=="B" && units[i].value == "3"){
-                    p+= 3.0;
+                    p+= 9.0;
                     u+= 3;
                 }
                 
                  else if(grades[i].value=="B" && units[i].value == "2"){
-                    p+= 3.0;
+                    p+= 6.0;
                     u+= 2;
                 }
 
@@ -459,37 +463,37 @@
                  // B-
 
                  else if(grades[i].value=="B-" && units[i].value == "8"){
-                    p+= 2.7;
+                    p+= 21.6;
                     u+= 8;
                 }
 
                  else if(grades[i].value=="B-" && units[i].value == "7"){
-                    p+= 2.7;
+                    p+= 18.9;
                     u+= 7;
                 }
 
                  else if(grades[i].value=="B-" && units[i].value == "6"){
-                    p+= 2.7;
+                    p+= 16.2;
                     u+= 6;
                 }
 
                  else if(grades[i].value=="B-" && units[i].value == "5"){
-                    p+= 2.7;
+                    p+= 13.5;
                     u+= 5;
                 }
 
                  else if(grades[i].value=="B-" && units[i].value == "4"){
-                    p+= 2.7;
+                    p+= 10.8;
                     u+= 4;
                 }
 
                  else if(grades[i].value=="B-" && units[i].value == "3"){
-                    p+= 2.7;
+                    p+= 8.1;
                     u+= 3;
                 }
                 
                  else if(grades[i].value=="B-" && units[i].value == "2"){
-                    p+= 2.7;
+                    p+= 5.4;
                     u+= 2;
                 }
 
@@ -502,37 +506,37 @@
                  // C+
  
                  else if(grades[i].value=="C+" && units[i].value == "8"){
-                    p+= 2.3;
+                    p+= 18.4;
                     u+= 8;
                 }
 
                  else if(grades[i].value=="C+" && units[i].value == "7"){
-                    p+= 2.3;
+                    p+= 16.1;
                     u+= 7;
                 }
 
                  else if(grades[i].value=="C+" && units[i].value == "6"){
-                    p+= 2.3;
+                    p+= 13.8;
                     u+= 6;
                 }
 
                  else if(grades[i].value=="C+" && units[i].value == "5"){
-                    p+= 2.3;
+                    p+= 11.5;
                     u+= 5;
                 }
 
                  else if(grades[i].value=="C+" && units[i].value == "4"){
-                    p+= 2.3;
+                    p+= 9.2;
                     u+= 4;
                 }
 
                  else if(grades[i].value=="C+" && units[i].value == "3"){
-                    p+= 2.3;
+                    p+= 6.9;
                     u+= 3;
                 }
                  
                  else if(grades[i].value=="C+" && units[i].value == "2"){
-                    p+= 2.3;
+                    p+= 4.6;
                     u+= 2;
                 }
 
@@ -544,37 +548,37 @@
                  // C
 
                  else if(grades[i].value=="C" && units[i].value == "8"){
-                    p+= 2.0;
+                    p+= 16.0;
                     u+= 8;
                 }
 
                  else if(grades[i].value=="C" && units[i].value == "7"){
-                    p+= 2.0;
+                    p+= 14.0;
                     u+= 7;
                 }
 
                  else if(grades[i].value=="C" && units[i].value == "6"){
-                    p+= 2.0;
+                    p+= 12.0;
                     u+= 6;
                 }
 
                  else if(grades[i].value=="C" && units[i].value == "5"){
-                    p+= 2.0;
+                    p+= 10.0;
                     u+= 5;
                 }
 
                 else if(grades[i].value=="C" && units[i].value == "4"){
-                    p+= 2.0;
+                    p+= 8.0;
                     u+= 4;
                 }
 
                  else if(grades[i].value=="C" && units[i].value == "3"){
-                    p+= 2.0;
+                    p+= 6.0;
                     u+= 3;
                 }
                 
                  else if(grades[i].value=="C" && units[i].value == "2"){
-                    p+= 2.0;
+                    p+= 4.0;
                     u+= 2;
                 }
 
@@ -586,37 +590,37 @@
                  // C-
 
                  else if(grades[i].value=="C-" && units[i].value == "8"){
-                    p+= 1.7;
+                    p+= 13.6;
                     u+= 8;
                 }
 
                 else if(grades[i].value=="C-" && units[i].value == "7"){
-                    p+= 1.7;
+                    p+= 11.9;
                     u+= 7;
                 }
 
                  else if(grades[i].value=="C-" && units[i].value == "6"){
-                    p+= 1.7;
+                    p+= 10.2;
                     u+= 6;
                 }
 
                  else if(grades[i].value=="C-" && units[i].value == "5"){
-                    p+= 1.7;
+                    p+= 8.5;
                     u+= 5;
                 }
 
                 else if(grades[i].value=="C-" && units[i].value == "4"){
-                    p+= 1.7;
+                    p+= 6.8;
                     u+= 4;
                 }
 
                  else if(grades[i].value=="C-" && units[i].value == "3"){
-                    p+= 1.7;
+                    p+= 5.1;
                     u+= 3;
                 }
                 
                  else if(grades[i].value=="C-" && units[i].value == "2"){
-                    p+= 1.7;
+                    p+= 3.4;
                     u+= 2;
                 }
 
@@ -628,37 +632,37 @@
                  // D+
 
                  else if(grades[i].value=="D+" && units[i].value == "8"){
-                    p+= 1.3;
+                    p+= 10.4;
                     u+= 8;
                 }
 
                  else if(grades[i].value=="D+" && units[i].value == "7"){
-                    p+= 1.3;
+                    p+= 9.1;
                     u+= 7;
                 }
 
                  else if(grades[i].value=="D+" && units[i].value == "6"){
-                    p+= 1.3;
+                    p+= 7.8;
                     u+= 6;
                 }
 
                 else if(grades[i].value=="D+" && units[i].value == "5"){
-                    p+= 1.3;
+                    p+= 6.5;
                     u+= 5;
                 }
 
                  else if(grades[i].value=="D+" && units[i].value == "4"){
-                    p+= 1.3;
+                    p+= 5.2;
                     u+= 4;
                 }
 
                  else if(grades[i].value=="D+" && units[i].value == "3"){
-                    p+= 1.3;
+                    p+= 3.9;
                     u+= 3;
                 }
                 
                 else if(grades[i].value=="D+" && units[i].value == "2"){
-                    p+= 1.3;
+                    p+= 2.6;
                     u+= 2;
                 }
 
@@ -669,37 +673,37 @@
 
                  // D
                  else if(grades[i].value=="D" && units[i].value == "8"){
-                    p+= 1.0;
+                    p+= 8.0;
                     u+= 8;
                 }
 
                  else if(grades[i].value=="D" && units[i].value == "7"){
-                    p+= 1.0;
+                    p+= 7.0;
                     u+= 7;
                 }
 
                  else if(grades[i].value=="D" && units[i].value == "6"){
-                    p+= 1.0;
+                    p+= 6.0;
                     u+= 6;
                 }
 
                  else if(grades[i].value=="D" && units[i].value == "5"){
-                    p+= 1.0;
+                    p+= 5.0;
                     u+= 5;
                 }
 
                  else if(grades[i].value=="D" && units[i].value == "4"){
-                    p+= 1.0;
+                    p+= 4.0;
                     u+= 4;
                 }
 
                  else if(grades[i].value=="D" && units[i].value == "3"){
-                    p+= 1.0;
+                    p+= 3.0;
                     u+= 3;
                 }
                 
                  else if(grades[i].value=="D" && units[i].value == "2"){
-                    p+= 1.0;
+                    p+= 2.0;
                     u+= 2;
                 }
 
@@ -711,37 +715,37 @@
                  // D-
                 
                  else if(grades[i].value=="D-" && units[i].value == "8"){
-                    p+= .7;
+                    p+= 5.6;
                     u+= 8;
                 }
 
                  else if(grades[i].value=="D-" && units[i].value == "7"){
-                    p+= .7;
+                    p+= 4.9;
                     u+= 7;
                 }
 
                  else if(grades[i].value=="D-" && units[i].value == "6"){
-                    p+= .7;
+                    p+= 4.2;
                     u+= 6;
                 }
 
                  else if(grades[i].value=="D-" && units[i].value == "5"){
-                    p+= .7;
+                    p+= 3.5;
                     u+= 5;
                 }
 
                  else if(grades[i].value=="D-" && units[i].value == "4"){
-                    p+= .7;
+                    p+= 2.8;
                     u+= 4;
                 }
 
                  else if(grades[i].value=="D-" && units[i].value == "3"){
-                    p+= .7;
+                    p+= 2.1;
                     u+= 3;
                 }
                 
                  else if(grades[i].value=="D-" && units[i].value == "2"){
-                    p+= .7;
+                    p+= 1.4;
                     u+= 2;
                 }
 
@@ -754,7 +758,7 @@
 
 
                  else if(grades[i].value=="F" && units[i].value == "8"){
-                    p+= .0;v
+                    p+= .0;
                     u+= 8;
                 }
 
