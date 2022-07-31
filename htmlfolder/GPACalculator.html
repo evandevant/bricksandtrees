@@ -313,12 +313,12 @@
 
             //Calculations for A+,A
 
-            if(grades[i].value=="A+" || grades[i].value=="A" && units[i].value == "8"){
+            if((grades[i].value=="A+" || grades[i].value=="A") && units[i].value == "8"){
                 p += 32.0;
                 u += 8;
                 } 
         
-                 else if(grades[i].value=="A+" || grades[i].value=="A" && units[i].value == "7"){
+                 else if((grades[i].value=="A+" || grades[i].value=="A") && units[i].value == "7"){
                     p += 28.0;
                     u += 7;
                 }
@@ -802,6 +802,8 @@
 
 
             var total=p/u;
+            total = total.toFixed(4)
+            
             result.innerHTML=`your gpa is ${total}`;
         }
     
