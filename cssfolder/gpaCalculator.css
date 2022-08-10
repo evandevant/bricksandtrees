@@ -2,8 +2,17 @@
 /* 
 
 created & designed by Evan Brown (July 30, 2022) 
+updated by Evan Brown on (August 9, 2022)
 
 */
+body {
+    scrollbar-width: thin;
+}
+
+body {
+    scrollbar-color: #6969dd #e0e0e0;
+    scrollbar-width: thin;
+}
 
 *{
     padding: 0px;
@@ -15,11 +24,12 @@ created & designed by Evan Brown (July 30, 2022)
 #banner{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    overflow: hidden;
+    text-overflow: hidden;
     vertical-align: middle;
     line-height: 3em;
     background-color: aqua;
     height: 15vh;
-    width: auto;
 }
 
 /* should i be using display grid */
