@@ -7,9 +7,6 @@ updated by Evan Brown on (August 9, 2022)
 */
 body {
     scrollbar-width: thin;
-}
-
-body {
     scrollbar-color: #6969dd #e0e0e0;
     scrollbar-width: thin;
 }
@@ -30,6 +27,10 @@ body {
     line-height: 3em;
     background-color: aqua;
     height: 15vh;
+}
+
+#button{
+    position: relative; right: 40%;
 }
 
 /* should i be using display grid */
@@ -126,3 +127,10 @@ select {
     border: solid black;
     font-style: oblique;
 }
+
+@keyframes blink { 
+    40% { border-color: yellow; } 
+ }
+ .result{ /*or other element you want*/
+     animation: blink .5s step-end infinite alternate;
+ }
