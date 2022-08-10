@@ -42,6 +42,10 @@ body {
   'opsz' 48
 }
 
+a:visited{
+    text-decoration: none;
+}
+
 
 .toolbar{
     border: solid #8FBC8F;
