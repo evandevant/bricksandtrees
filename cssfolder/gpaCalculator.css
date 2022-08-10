@@ -22,6 +22,8 @@ created & designed by Evan Brown (July 30, 2022)
     width: auto;
 }
 
+/* should i be using display grid */
+
 .wrapper{
     display: grid;
     width: 100vw;
@@ -34,18 +36,22 @@ created & designed by Evan Brown (July 30, 2022)
 .upperMiddleBox{
     padding: 5px;
     background-color: #B73239;
-    position: center;
+    position: relative; top: 10%;
 }
 
 /* lower left box final grade calculator */
 .lowerLeftBox{
     padding: 5px;
     background-color: #B73239;
-    position: relative; right: 25%; top: 10%;
+    position: relative; right: 25%; top: 20%;
 }
 
 /* lower right box, semester-quarter unit & grade conversions */
-
+.lowerRightBox{
+    padding: 5px;
+    background-color: #B73239;
+    position: relative; left: 25%; bottom: 80%;
+}
 
 .table{
     row-gap: 20px;
