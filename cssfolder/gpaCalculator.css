@@ -12,8 +12,14 @@ created & designed by Evan Brown (July 30, 2022)
 
 }
 
-p {
+#banner{
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    vertical-align: middle;
+    line-height: 3em;
+    background-color: aqua;
+    height: 15vh;
+    width: auto;
 }
 
 .wrapper{
@@ -25,10 +31,21 @@ p {
     background: #8FBC8F;
 }
 
-.box{
+.upperMiddleBox{
     padding: 5px;
     background-color: #B73239;
+    position: center;
 }
+
+/* lower left box final grade calculator */
+.lowerLeftBox{
+    padding: 5px;
+    background-color: #B73239;
+    position: relative; right: 25%; top: 10%;
+}
+
+/* lower right box, semester-quarter unit & grade conversions */
+
 
 .table{
     row-gap: 20px;
