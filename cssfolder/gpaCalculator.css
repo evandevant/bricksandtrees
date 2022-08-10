@@ -9,6 +9,7 @@ body {
     scrollbar-width: thin;
     scrollbar-color: #6969dd #e0e0e0;
     scrollbar-width: thin;
+    font-family: 'Cormorant', serif;
 }
 
 *{
@@ -19,7 +20,7 @@ body {
 }
 
 #banner{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Cormorant', serif;
     text-align: center;
     overflow: hidden;
     text-overflow: hidden;
@@ -29,9 +30,24 @@ body {
     height: 15vh;
 }
 
-#button{
-    position: relative; right: 40%;
+
+/* code for Home button */
+
+.material-symbols-outlined {
+  position: relative; right: 48%;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
 }
+
+
+.toolbar{
+    border: solid #8FBC8F;
+}
+
+
 
 /* should i be using display grid */
 
@@ -48,6 +64,7 @@ body {
     padding: 5px;
     background-color: #B73239;
     position: relative; top: 10%;
+    font-family: 'Cormorant', serif;
 }
 
 /* lower left box final grade calculator */
@@ -55,6 +72,7 @@ body {
     padding: 5px;
     background-color: #B73239;
     position: relative; right: 25%; top: 20%;
+    font-family: 'Cormorant', serif;
 }
 
 /* lower right box, semester-quarter unit & grade conversions */
@@ -62,6 +80,7 @@ body {
     padding: 5px;
     background-color: #B73239;
     position: relative; left: 25%; bottom: 80%;
+    font-family: 'Cormorant', serif;
 }
 
 .table{
@@ -74,12 +93,14 @@ th {
     margin: 50px;
     border: solid #B73239;
     background: #8c918c;
+    font-family: 'Cormorant', serif;
 }
 
 td {
     width: 100px;
     margin: 50px;
     border: solid black;
+    font-family: 'Cormorant', serif;
 }
 
 .session {
