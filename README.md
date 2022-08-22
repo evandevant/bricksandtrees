@@ -6,14 +6,19 @@
 |  ------   |    -------     |    
 |MajorQuery |  Tracks majors and student reviews, likely job pathways, average salary, and more. |         
 |           |                |               
-|           |                |               
+|Canvas     |  Integration   |               
 |           |                |              
+| MyUCLA    | Integration    |
+|           |                |    
+|BruinWalk  | Integration    |
 |           |                |
+|           |                |
+
 
 
 |  Social   |  Description   |
 |  -----    |    ------      |
-|           |                |
+|  Agora    | Community-based Marketplace              |
 |           |                |
 |           |                |
 
@@ -21,7 +26,7 @@
 
 Professional |  Description  |
 |  -----     |   -------     |
-|            |               |
+| J & R (Jobs & Reseach    |               |
 |            |               |
 
 
