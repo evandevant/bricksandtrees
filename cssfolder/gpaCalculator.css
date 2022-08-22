@@ -6,6 +6,20 @@ updated by Evan Brown on (August 9, 2022)
 
 */
 
+#colGrade{
+    border: green;
+    background-color: white ;
+}
+
+#grades{
+    text-align: center;
+}
+
+
+
+
+
+
 
 body {
     font-family: 'Raleway', sans-serif;
@@ -35,6 +49,9 @@ body {
     padding-bottom: 10%;
 }
 
+#title {
+    border: solid black;
+}
 p{
   color: #F2e5D7;
    
@@ -83,7 +100,9 @@ h1{
     color: #F2e5D7;
     text-align: center;
 }
+
 /* lower left box final grade calculator */
+
 .lowerLeftBox{
     padding: 5px;
     background-color: #B73239;
@@ -101,6 +120,7 @@ h1{
 
 .table{
     row-gap: 30px;
+    border: solid black;
 }
 
 th {

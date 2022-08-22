@@ -55,9 +55,6 @@
 
 
 
-
-
-
 <body>
 
     <div id="banner"> 
@@ -77,65 +74,99 @@
 
         </div>
 
-        <h1> calculation. </h1> 
-        <p> 1) GPA Caclulator 2) final grade  3)semester/quarter conversion tools below </p>
+        <h1> Calculation. </h1> 
+        
     
     </div>
     
 
     <div class="wrapper">
+
         <div class=" upperMiddleBox">
+
             <div id="title">
-                <h1> "official" GPA Calculator </h1>
-            </div>
-            <table>
-                <th> grade </th>
-                <th> units </th>
-                <th> session </th>
-                <th> points </th>
+
+                <h1> "Official" @ucla GPA Calculator </h1>
                 
-                <tr>
-                    <td> <select class="grades" style="text-align: center;">
+            </div>
 
-                        <option> select </option>
-                        <option> A+ </option>
-                        <option> A- </option>
-                        <option> A </option>
-                        <option> B+ </option>
-                        <option> B </option>
-                        <option> B- </option>
-                        <option> C+ </option>
-                        <option> C </option>
-                        <option> C- </option>
-                        <option> D+ </option>
-                        <option> D </option>
-                        <option> D- </option>
-                        <option> F </option>
-                    
-                    </select> </td>
+             
+             
+               
+                    <table id="gpaCalc">
 
-                    <td>
-                        <input type='number' class="myTextarea" id="session" min="0" placeholder="i.e. 4"></textarea>
-                        
-                   </td>
+                        <tr> 
+
+                            <th id="colGrade"> Grade </th>
+
+                            <th id="colUnits"> Units </th>
+
+                            <th id="colSession"> Session </th>
+
+                            <th id="colPoints"> Points </th>
+                            
+                        </tr>
 
 
-                    
-                    <td>
-                         <textarea class="myTextarea" type="text" id="points" minlength="0.000" maxlength="4.000" placeholder="i.e. Fall 22" ></textarea>
-                         
-                    </td>
-                     
-                   
-                    
-                    <td> <p class="points"> </p></td>
+                      <tr>
+
+                        <td>
+
+                            <input list="posGrades" type="text" id="grades" placeholder="i.e. A">
+
+                                <datalist id="posGrades">
+
+                                    <option value="A+"/>
+                                    <option value="A"/>
+                                    <option value="A-"/>
+                                    <option value="B+"/>
+                                    <option value="B"/>
+                                    <option value="B-"/>
+                                    <option value="C+"/>
+                                    <option value="C"/>
+                                    <option value="C-"/>
+                                    <option value="D+"/>
+                                    <option value="D"/>
+                                    <option value="D-"/>
+                                    <option value="F"/>
+                                    <option value="NP"/>
+                                    <option value="P"/>
+                                    <option value="I"/>
+                                    <option value="W"/>
+                                    
+                                </datalist>
+
+                        </td>
+
+                        <td>
+
+                            <input type="number" id="units" placeholder="i.e. 4">
+
+                        </td>
+
+                        <td>
+
+                            <input type="text" id="session" placeholder="i.e. Fall 2022">
+
+                        </td>
+
+                        <td> </td>
 
 
-                    </select></td>
-                </tr>
+                      </tr>
 
+
+                    </table>
+
+        </div>
+
+
+                    <button type="button" onclick="myFunction()"> add row </button>
+
+                
+<!-- 
                <tr>
-                    <td> <select class="grades" style="text-align: center;">
+                    <!-- <td> <select class="grades" style="text-align: center;">
                         
                         <option> select </option>
                         <option> A+ </option>
@@ -507,21 +538,12 @@
 
                     <td> <select class="units"> </p> 
 
-                    <option> select  </option>
-                    <option> 8 </option>
-                    <option> 7 </option>
-                    <option> 6 </option>
-                    <option> 5 </option>
-                    <option> 4 </option>
-                    <option> 3 </option>
-                    <option> 2 </option>
-                    <option> 1 </option>
                     
                     </select> </td>
 
-                    <td> <p class="session"> </p> </td>
+                    <td> <input type="text" class="session"> </input> </td>
                     
-                    <td> <p class="points"> </p></td>
+                    <td> <input type="text" class="points"> </input></td>
 
 
                     </select></td>
@@ -615,7 +637,7 @@
         </div>
 
         <!-- Semester 2 Quarter Conversion System -->
-        <div class="lowerRightBox">
+        <!-- <div class="lowerRightBox">
             <table>
                 <th colspan="4"> Semester-Quarter & Quarter-Semester Conversions </th>
             
@@ -859,7 +881,7 @@
 
 
                     </select></td>
-                </tr>
+                </tr> -->
                 
             </table>
             
@@ -867,8 +889,23 @@
 
     </div>
 
-    <script type="text/javascript">
 
+    <script>
+
+function myFunction() {
+  var table = document.getElementById("gpaCalc");
+  var row = table.insertRow(2);
+  var cell1 = row.insertCell(0);
+  var cell2 = row.insertCell(1);
+  var cell3 = row.insertCell(2);
+  var cell4 = row.insertCell(3);
+  cell1.innerHTML = ".grades";
+  cell2.innerHTML = "#units";
+  cell3.innerHTML = "#session";
+  cell4.innerHTML = ".points";
+}
+</script> -->
+<!-- 
         const grades=document.querySelectorAll('.grades');
         const units=document.querySelectorAll('.units');
         // const session=document.querySelectorAll('.session');
@@ -1384,7 +1421,7 @@
     
 
            
-    </script>
+    </script> -->
 
     <footer>
         <p> is this gonna reearrange everything???? </p>
