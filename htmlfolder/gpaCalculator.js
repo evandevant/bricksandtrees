@@ -11,7 +11,7 @@
         var cell3 = row.insertCell(2);
         var cell4 = row.insertCell(3);
 
-        cell1.innerHMTL=cell1
+       
     }
     
       
