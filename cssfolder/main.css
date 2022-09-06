@@ -15,12 +15,44 @@ body {
     width: 100%;
     font-weight: 500;
     display: grid;
-    grid-template-columns: 15% 70% 15%;
+    grid-template-columns: 20% 60% 20%;
     grid-template-rows:    20% 55% 25%;
     grid-template-areas: 
-        "section1    header    section2"
+        "header1    header    header2"
         "sidebar     main      main"
-        "section3      footer    section4";
+        "footer      footer    footer";
+}
+
+
+
+/* header styles */
+
+header {
+    grid-area: header;
+    background: url(../img/uclaphoto2.jpg) ;
+    background-size: 150px;
+    border-style: solid;
+    border: black;
+    text-align: center;
+    line-height: 150px;
+    
+
+    
+}
+
+#leftHeaderBox {
+    grid-area: header1;
+    background-color: grey;
+    border-style: solid;
+    border-color: black;
+    text-overflow: clip;
+}
+
+#rightHeaderBox {
+    grid-area: header2;
+    background-color: green;
+    border-style: solid;
+    border-color: black;
 }
 
 
@@ -69,22 +101,19 @@ aside {
     border-color: black;
 
 }
-/* header styles */
 
-header {
-    grid-area: header;
-    background: url(../img/uclaphoto2.jpg) ;
-    background-size: 150px;
-    border-style: solid;
-    border: black;
-    text-align: center;
-    line-height: 150px;
-    
+
+
+/* footer styles */
+
+footer {
+    grid-area: footer;
+    background-color: green;
 }
 
 
-section:nth-of-type(1){
-    grid-area: section1;
+#leftFooterBox {
+  
     background-color: blue;
     border-color: black;
     border-width: 20%;
@@ -92,26 +121,13 @@ section:nth-of-type(1){
 }
 
 
-section:nth-of-type(2){
-    grid-area: section2;
+#rightFooterBox {
+ 
     background-color: orange;
     border-style: solid;
     border-color: black;
 }
 
-section:nth-of-type(3){
-    grid-area: section3;
-    background-color: yellow;
-    border-style: solid;
-    border-color: black;
-}
-
-section:nth-of-type(4){
-    grid-area: section4;
-    background-color: green;
-    border-style: solid;
-    border-color: black;
-}
 
 
 
@@ -122,9 +138,3 @@ main {
     background-color: blueviolet;
 }
 
-/* footer styles */
-
-footer {
-    grid-area: footer;
-    background-color: green;
-}
