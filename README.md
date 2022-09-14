@@ -4,7 +4,7 @@
 
 | Type  |  Descriptions  |  
 |  ------   |    -------     |  
-|         Academic           |
+|     **Academic**           |
 |MajorQuery |  Tracks majors and student reviews, likely job pathways, average salary, and more. |         
 |           |                |               
 |Canvas     |  Integration   |               
@@ -44,7 +44,7 @@
 
 2. [Motivation](#motivation)
 
-3. [Where To Start](#Where To Start)
+3. [Where To Start](#Where-To-Start)
 
 4. [Timeline] (#Timeline)
 
