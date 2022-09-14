@@ -1,4 +1,4 @@
-# Bruin Plan Project
+# Welcome 2 Bricks & Trees 
 
 > Academic, social, and professional preparation tool engineered to heighten the college experience @ucla through culture building and calculated planning.
 
@@ -45,13 +45,13 @@ Professional |  Description  |
 
 ### Table of Contents
 
--[Description](#description)
+1. [Description](#description)
 
--[Motivation](#motivation)
+2. [Motivation](#motivation)
 
--[How To Use](#how-to-use)
+3. [Where To Start](#where to start)
 
--[Timeline] (#Timeline)
+4. [Timeline] (#Timeline)
 
 
 
@@ -60,7 +60,8 @@ Professional |  Description  |
 
 ## Description
 
-This all-encompassing platform is aimed at providing students with the most important collegiate and personal data they need to succeed at UCLA and beyond. The site layout is available in the UXFiles folder and are broken down into two different visualizations: wireframe and page layout. In addition, User Flow Chart has been uploaded illuminating how each user may approach the webpage. A data specific flowchart is in the process of being developed and uploaded, which will show how and what kind of data users will input to interact with the web application. Overall, these files illuminate the interactability of the website and how our services enable students to reach their highest potential through calculated organization, data handling, and planning. 
+An all- encompassing platform is aimed at heightening the undergraduate experience. The startup is focused on introducining the implementation of technology and pyschology to improve one's organization of their academic, social, and professional spheres of life. 
+
 
 ---
 ## Motivation
@@ -69,10 +70,9 @@ Bricks & Trees is focused on streamlining the process of being an undergraduate 
 
 ---
 
-## How To Use
+## Where To Start
 
-
-
+wireframe and page layout. In addition, User Flow Chart has been uploaded illuminating how each user may approach the webpage. A data specific flowchart is in the process of being developed and uploaded, which will show how and what kind of data users will input to interact with the web application. Overall, these files illuminate the interactability of the website and how our services enable students to reach their highest potential through calculated organization, data handling, and planning. 
 
 ---
 
@@ -88,7 +88,7 @@ Summer 2022
 ## Timeline
 
 
-
+S
 
 
 
