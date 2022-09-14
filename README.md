@@ -4,7 +4,6 @@
 
 | Type  |  Descriptions  |  
 |  ------   |    -------     |  
-
 |         Academic           |
 |MajorQuery |  Tracks majors and student reviews, likely job pathways, average salary, and more. |         
 |           |                |               
