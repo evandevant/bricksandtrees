@@ -14,3 +14,7 @@
 .table{
     row-gap: 20px;
 }
+
+.tr {
+    border: solid black;
+}

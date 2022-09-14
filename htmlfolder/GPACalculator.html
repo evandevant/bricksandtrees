@@ -20,6 +20,7 @@
 
 
     <script src="gpaCalculator.js"> </script>
+    
     <!-- created and designed by Evan Brown (July 29, 2022)-->
 
 
@@ -88,9 +89,13 @@
             </div>
 
              
+
+            <button type="button" onclick="addRow()"> + class </button>
+
+            <button type="button" onclick="deleteRow()"> - class</button>
              
                
-                    <table id="gpaCalc">
+                 <table id="gpaCalc">
 
                         <tr> 
 
@@ -105,7 +110,7 @@
                         </tr>
 
 
-                      <tr>
+                    <tr id="clone">
 
                         <td>
 
@@ -150,14 +155,12 @@
                         <td> </td>
 
 
-                      </tr>
+                    </tr>
 
 
-                    </table>
+                  </table>
 
-                    <button type="button" onclick="addRow()"> + class </button>
-
-                    <button type="button" onclick="deleteRow()"> - class</button>
+                  
 
                 
         </div>
