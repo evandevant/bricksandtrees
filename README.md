@@ -2,8 +2,10 @@
 
 > Academic, social, and professional preparation tool engineered to heighten the college experience @ucla through culture building and calculated planning.
 
-| Academic  |  Descriptions  |  
-|  ------   |    -------     |    
+| Type  |  Descriptions  |  
+|  ------   |    -------     |  
+
+|         Academic           |
 |MajorQuery |  Tracks majors and student reviews, likely job pathways, average salary, and more. |         
 |           |                |               
 |Canvas     |  Integration   |               
@@ -13,14 +15,14 @@
 |BruinWalk  | Integration    |
 |           |                |
 |           |                |
-|**Social**   |  Description** |
+|      **Social Features**   |
 |  -----    |    ------      |
-|  Agora    | Community-based Marketplace, b&t built platform           |
+|  Agora    | Community-based Marketplace, B&T built platform           |
 |           |                |
 |           |                |
-**Professional |  Description**  |
+| **Professional Features**  |
 |  -----     |   -------     |
-| J & R (Jobs & Reseach    |   reliably updated and accessible opportunity on campus, b&t built platform           |
+| J & R (Jobs & Reseach      |   reliably updated and accessible opportunity on campus, B&T built platform           |
 |            |               |
 
 
