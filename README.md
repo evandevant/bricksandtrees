@@ -13,7 +13,7 @@
 |BruinWalk  | Integration    |
 |           |                |
 |           |                |
-|**Social   |  Description** |
+|**Social**   |  Description** |
 |  -----    |    ------      |
 |  Agora    | Community-based Marketplace, b&t built platform           |
 |           |                |
