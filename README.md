@@ -44,7 +44,7 @@
 
 2. [Motivation](#motivation)
 
-3. [Where To Start](#where to start)
+3. [Where To Start](#Where To Start)
 
 4. [Timeline] (#Timeline)
 
