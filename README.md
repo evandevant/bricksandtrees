@@ -13,14 +13,14 @@
 |           |                |    
 |BruinWalk  | Integration    |
 |           |                |
-| -----          |     -----           |
+|           |                |
 |      **Social Features**   |
-|  -----    |    ------      |
+|     |        |
 |  Agora    | Community-based Marketplace, B&T built platform           |
 |           |                |
 |           |                |
 | **Professional Features**  |
-|  -----     |   -------     |
+|           |      |
 | J & R (Jobs & Reseach      |   reliably updated and accessible opportunity on campus, B&T built platform           |
 |            |               |
 
