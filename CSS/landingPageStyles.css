@@ -1,0 +1,126 @@
+
+/* File Structure: top --> bottom: universal, header, main, then footer */
+
+
+/* uni styling */
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    background-color: yellow;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: pink;
+    
+}
+
+
+/* header styling*/
+
+
+header {
+    border: solid brown;
+    background-color: antiquewhite;
+    height: 20%;
+}
+
+h1 {
+    text-decoration: underline;
+    text-decoration-color: rgb(22, 90, 22);
+    letter-spacing: -0.05em;
+}
+
+.co {
+    font-style: italic;
+    font-weight: 100;
+    letter-spacing: -0.05em;
+}
+
+.headerNav {
+    position: absolute;
+    width: 100%;
+    margin-top: 1.5%;
+}
+
+#join {
+    border: none;
+    float: right;
+    padding-right: 1em;
+}
+
+#contactUs {
+    border: none;
+    float: right;
+    padding-right: 1em;
+}
+
+
+#aboutUs{
+    border: none;
+    float: right;
+    padding-right: 1em;
+    vertical-align: middle;
+}
+
+
+
+/* main styling */
+
+#UCLA {
+    border: solid blue;
+    background-color: aquamarine;
+    width: 15%;
+    bottom: 80%;
+    text-align: center;
+}
+
+
+
+/* footer styling */
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    border: solid black;
+    background-color: antiquewhite;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#est {
+  text-decoration: double;
+  font-size: small
+  
+}
+
+#coord {
+    font-size: xx-small;
+}
+
+#aboutTeam {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#socialMedia {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 30em;
+}
+.appStore {
+    width: 75px;
+    height: 25px;
+ 
+  }

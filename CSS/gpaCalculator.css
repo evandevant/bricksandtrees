@@ -1,0 +1,229 @@
+
+/* 
+
+created & designed by Evan Brown (July 30, 2022) 
+updated by Evan Brown on (August 9, 2022)
+
+*/
+
+#colGrade{
+    border: green;
+    background-color: white ;
+}
+
+#grades{
+    text-align: center;
+}
+
+
+
+
+
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    scrollbar-width: thin;
+    scrollbar-color: #091540 #e0e0e0;
+    scrollbar-width: thin;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+#banner{
+    font-family: 'Raleway Dots', cursive;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: 50%;
+    overflow: hidden;
+    text-overflow: hidden;
+    vertical-align: middle;
+    line-height: 3em;
+    background-color: #262322;
+    height: 15vh;
+    padding-bottom: 10%;
+}
+
+#title {
+    border: solid black;
+}
+p{
+  color: #F2e5D7;
+   
+}
+
+
+/* code for Home button */
+
+.material-symbols-outlined {
+  position: relative; right: 48%;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+
+/* should i be using display grid */
+
+.wrapper{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    place-items: center;
+    border: solid #B73239;
+    background: #8FBC8F;
+    padding: 0%;
+}
+
+.upperMiddleBox{
+    padding: 5px;
+    background-color: #BC4A3C;
+    position: relative; top: 10%;
+    font-family: 'Old Standard TT', serif;
+    border: solid 5px gold;
+}
+
+h1{
+    font-weight: 400;
+    font-size: large;
+    color: #F2e5D7;
+    text-align: center;
+}
+
+/* lower left box final grade calculator */
+
+.lowerLeftBox{
+    padding: 5px;
+    background-color: #B73239;
+    position: relative; right: 25%; top: 20%;
+    font-family: 'Old Standard TT', serif;
+}
+
+/* lower right box, semester-quarter unit & grade conversions */
+.lowerRightBox{
+    padding: 5px;
+    background-color: #B73239;
+    position: relative; left: 25%; bottom: 80%;
+    font-family: 'Old Standard TT', serif;
+}
+
+.table{
+    row-gap: 30px;
+    border: solid black;
+}
+
+th {
+    width: 100px;
+    height: 50px;
+    margin: 50px;
+    font-style: bold;
+    border: solid #B73239;
+    background: #8c918c;
+    font-family: 'Old Standard TT', serif;
+}
+
+td {
+    width: 100px;
+    margin: 50px;
+    height: 50px;
+
+    font-family: 'Old Standard TT', serif;
+}
+
+
+
+
+
+/* cell styling for gpa calculator */
+
+.myTextarea{
+    resize: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: 'Old Standard TT', serif;
+    text-align: center;
+    vertical-align: top;
+ }
+
+ 
+
+
+.session {
+    background: white;
+    border: solid black;
+    height: 30px;
+    font-family: 'Old Standard TT', serif;
+}
+
+.grades{
+    width: 100px;
+    height: 70px;
+    background: white;
+    
+    height: 30px;
+    font-family: 'Old Standard TT', serif;
+    padding: 0%;
+}
+
+
+.points {
+    width: 100px;
+    background: beige;
+    border: solid black;
+    height: 30px;
+    font-family: 'Old Standard TT', serif;
+}
+
+select {
+    width: 200px;
+    font-weight: bolder;
+    font-style: italic;
+    align-content: center;
+}
+
+.button {
+    width: 420px;
+    height: 100px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    border: solid #F2E8CF;
+}
+
+.resultBox{
+    display: flex;
+    flex-direction: row;
+}
+
+.result{
+    width: 200px;
+    height: 100px;
+    background-color: #162719;
+    padding: 10px;
+    border: solid black;
+    font-family: 'Old Standard TT', serif;
+}
+
+@keyframes blink { 
+    40% { border-color: #F2E8CF; } 
+ }
+ .result{ /*or other element you want*/
+     animation: blink .5s step-end infinite alternate;
+ }
+
+ /* end gpa calculator styling */
